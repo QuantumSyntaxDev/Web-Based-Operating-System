@@ -1,0 +1,85 @@
+/* Windows 95 Icon Styles */
+.icon i {
+    font-size: 32px;
+    margin-bottom: 5px;
+    color: #000080;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+.start-button i {
+    font-size: 16px;
+    margin-right: 5px;
+    color: #000080;
+}
+
+.start-menu-header i {
+    font-size: 16px;
+    margin-right: 10px;
+    color: white;
+}
+
+.start-menu-item i {
+    font-size: 16px;
+    margin-right: 10px;
+    color: #000080;
+}
+
+.taskbar-item i {
+    font-size: 16px;
+    margin-right: 5px;
+    color: #000080;
+}
+
+.file-item i {
+    font-size: 16px;
+    margin-right: 5px;
+    color: #000080;
+}
+
+/* Context menu icons */
+.context-menu-item i {
+    font-size: 16px;
+    margin-right: 5px;
+    color: #000080;
+}
+
+/* Window control icons */
+.window-control {
+    font-size: 14px;
+    color: #000080;
+}
+
+/* Special icon colors */
+.fa-trash {
+    color: #800000;
+}
+
+.fa-power-off {
+    color: #800000;
+}
+
+.fa-desktop {
+    color: #008080;
+}
+
+.fa-network-wired {
+    color: #008000;
+}
+
+/* Hover effects */
+.icon:hover i,
+.start-menu-item:hover i,
+.taskbar-item:hover i,
+.file-item:hover i,
+.context-menu-item:hover i {
+    color: white;
+}
+
+/* Active states */
+.taskbar-item.active i {
+    color: #000080;
+}
+
+.file-item.selected i {
+    color: white;
+} 

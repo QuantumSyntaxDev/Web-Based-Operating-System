@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyOS - Windows 95 Style</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/windows95.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/windows95-icons.css">
+</head>
+<body>
+    <div class="desktop">
+        <div class="icons">
+            <div class="icon" data-window="my-computer">
+                <i class="fas fa-desktop"></i>
+                <span>My Computer</span>
+            </div>
+            <div class="icon" data-window="recycle-bin">
+                <i class="fas fa-trash"></i>
+                <span>Recycle Bin</span>
+            </div>
+            <div class="icon" data-window="calculator">
+                <i class="fas fa-calculator"></i>
+                <span>Calculator</span>
+            </div>
+            <div class="icon" data-window="network">
+                <i class="fas fa-network-wired"></i>
+                <span>Network</span>
+            </div>
+            <div class="icon" data-window="settings">
+                <i class="fas fa-cog"></i>
+                <span>Settings</span>
+            </div>
+        </div>
+        
+        <div class="taskbar">
+            <div class="start-button">
+                <i class="fas fa-windows"></i>
+                <span>Start</span>
+            </div>
+            <div class="taskbar-items"></div>
+            <div class="system-tray">
+                <div class="clock">00:00</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="start-menu">
+        <div class="start-menu-header">
+            <i class="fas fa-windows"></i>
+            <span>MyOS</span>
+        </div>
+        <div class="start-menu-items">
+            <div class="start-menu-item">
+                <i class="fas fa-folder"></i>
+                <span>Programs</span>
+            </div>
+            <div class="start-menu-item">
+                <i class="fas fa-file"></i>
+                <span>Documents</span>
+            </div>
+            <div class="start-menu-item" data-window="settings">
+                <i class="fas fa-cog"></i>
+                <span>Settings</span>
+            </div>
+            <div class="start-menu-item">
+                <i class="fas fa-power-off"></i>
+                <span>Shutdown</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/windows95.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html> 
