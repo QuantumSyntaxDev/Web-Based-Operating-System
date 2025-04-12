@@ -37,9 +37,6 @@ This project is a web-based operating system interface built with JavaScript and
 ## 🤝 Contributing
 We welcome contributions to improve the operating system! If you have ideas or want to help with development, please contact us.
 
-## 📧 Contact
-For developer inquiries: [your email]
-
 ---
 
 *Project is under active development. Stay tuned for updates!* 
