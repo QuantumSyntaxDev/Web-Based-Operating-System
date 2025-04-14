@@ -1,4 +1,6 @@
 # 💻 Web-Based Operating System
+![screen](https://github.com/QuantumSyntaxDev/Web-Based-Operating-System/raw/main/screen.png)
+
 
 ## 📝 Description
 This project is a web-based operating system interface built with JavaScript and PHP. It provides a modern, browser-based operating system experience with real-time functionality and server-side processing capabilities.
